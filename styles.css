@@ -1,0 +1,89 @@
+form {
+    border: solid 2px black;
+    padding: 20px 0 20px 10px;
+    margin: 30px 10px 20px 10px;
+    background-color: #000000;
+    background-image: url("./devclub.png");
+    background-position: center;
+}
+
+h2 {
+    position: absolute;
+    top: -20px;
+    background-color: transparent;
+    padding: 3px;
+    color: #000000;
+}
+
+div {
+    color: #ffe4c4;
+}
+
+
+label {
+    display: block;
+    padding-bottom: 6px;
+    color: #ffe4c4;
+}
+
+input {
+    margin-bottom: 15px;
+    margin-top: 3px;
+    background-color: #ffe4c4;
+    color: #000000;
+}
+
+
+.age {
+    width: 40px;
+}
+
+.file {
+    background: #000000;
+    color: #ffe4c4;
+
+}
+
+.file::-webkit-file-upload-button {
+    cursor: pointer;
+    background-color: #ffe4c4;
+}
+
+.eye {
+    display: inline;
+}
+
+textarea {
+    margin-bottom: 10px;
+    background-color: #ffe4c4;
+
+}
+
+button {
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 56.7px;
+    height: 21.53px;
+    background-color: #ffe4c4;
+}
+
+
+
+.button-clear:hover {
+    background-color: red;
+    width: 66px;
+    height: 26px;
+    color: white;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.button-submit:hover {
+    background-color: blue;
+    width: 66px;
+    height: 26px;
+    color: white;
+    border-radius: 6px;
+    transition: 1s;
+   
+}
